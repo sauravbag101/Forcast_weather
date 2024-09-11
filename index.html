@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter your city Name" spellcheck="true">
+            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+        </div>
+        <div class="error">
+            <p>Invalide Name</p>
+        </div>
+        <div class="weather">
+            <img src="./images/rain.png" class ="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Kerukocha</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <div class="white">
+                <!-- <img src="./Images/images/wind.png" alt=""> -->
+                <div>
+                    <p class="Temp_Min">15 km/h</p>
+                    <p>Temp Min</p>
+                </div>
+                <div>
+                    <p class="Pressure">15 km/h</p>
+                    <p>Pressure</p>
+                </div>
+                <div>
+                    <p class="Precipitation">15 km/h</p>
+                    <p>Precipitation</p>
+                </div>
+                <div>
+                    <p class="Air">15 km/h</p>
+                    <p>Air Quality</p>
+                </div>
+                <div>
+                    <p class="Wind_Gust">15 km/h</p>
+                    <p>Wind Gust</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
